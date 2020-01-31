@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ParticleSlider</title>
+</head>
+<body id="particle-slider">
+<style>
+
+    html, body {
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+     .dg, .slides {
+        display: none;
+    }
+
+
+    @media (min-width: 1000px) {
+         .dg {
+            display: block;
+        }
+    }
+</style>
+
+<div class="site-la-logos">
+    <p>
+
+    </p>
+</div>
+<div class="slides">
+    <div id="first-slide" class="slide" data-src="img/logo.svg"></div>
+</div>
+<canvas class="draw"></canvas>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
